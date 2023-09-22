@@ -1,5 +1,7 @@
+import classes from './homepage.module.css';
+
 function HomePage(){
-return <div>
+return <div className={classes.HomePage}>
     Hello Worldie
 </div>
 }
