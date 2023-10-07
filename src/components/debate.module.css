@@ -1,0 +1,30 @@
+.debateContainer {
+  box-sizing: border-box;
+  border: 1px solid #bfbfbf;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1em;
+}
+.debateTitle {
+  font-size: calc(var(--text-below-medium));
+}
+.interractionsContainer {
+  display: flex;
+}
+.approveWrapper,
+.disapproveWrapper,
+.debateDate,
+.opinionWrapper {
+  display: inline-block;
+  width: var(--element-full);
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.debateDate {
+  font-size: var(--text-below-small);
+}
+.approveWrapper svg {
+  /* fill: red;
+  background-color: red; */
+}
